@@ -17,6 +17,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 	<link rel="icon" type="ima/png" href="assets/images/favicon.png">
 	<!-- Linked Link (E) -->
+	<script type="text/javascript">
+		$(window).on("load",function () {
+			$("#load").fadeOut(1000);
+		});
+	</script>
 </head>
 <body id="mysite">
 <div class="preloader" id="load"><div class="preloader-in"></div></div>
@@ -572,9 +577,7 @@
 	$(document).ready(function() {
 		// LOADER JS (S)
 
-		$(window).on("load",function () {
-			$("#load").fadeOut(1000);
-		});
+		
 		// LOADER JS (E)
 
 		// FIXED HEADER JS (S)
