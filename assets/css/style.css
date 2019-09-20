@@ -889,6 +889,14 @@ li.dropdown-item{
     height: 20px;
     border: 2px solid #C0CDD5;
     cursor: pointer;
+    -webkit-appearance: none;
+    background-color: rgba(29,72,114,0.7) ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.check_item input:checked{
+    background-image: url(../images/checkmark.svg);
+    background-color: rgba(29,72,114,0.9) ;
 }
 .check_item label{
 	font-size: 16px;
