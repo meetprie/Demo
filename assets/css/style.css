@@ -34,11 +34,7 @@ input:focus{
 	box-shadow:none !important;
 }
 /*
-color: #E58300;
-color: #1089ff;
-color: #F85910   2; rgba(248,89,16,0.9);
-color: #1D4872   3; rgba(29,72,114,0.9) !important;
-color: #020d26   4; rgba(2,13,38,0.5);
+color: #00B3CD   rgba(0,179,205,0.8);
 */
 .preloader{
 	position: fixed;
@@ -77,7 +73,7 @@ body{
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.5s ease 0s;
-	background-color: #1D4872;
+	background-color: #00B3CD;
 	font-size: 30px;
 	width: 50px;
 	height: 50px;
@@ -116,7 +112,7 @@ section{
 	background: #40C7DB ! important;
 }
 .active{
-	color: #005192 !important;
+	color: #00B3CD !important;
 }
 .sec-heading{
 	margin-bottom: 50px;
@@ -321,18 +317,9 @@ section{
 .top-navber{
 	padding: 10px 0;
 	/*background: rgba(0,0,0,0.3);*/
-	background: #1D4872;
+	background: #00B3CD;
 	box-shadow: 4px 11px 17px -3px rgba(255,255,255,0.6);
 }
-/*.select-lenguge{
-	background: transparent;
-	color: #fff;
-	border: 1px solid #fff;
-	padding: 3px 20px;
-}
-.select-lenguge option{
-	background: #000;
-}*/
 .inqure-form{
 	padding: 20px 25px;
 }
@@ -349,7 +336,6 @@ section{
 }
 .header .sticky.fixed .nav-link{
 	margin: 0 4px;
-	color: #1D4872;
 }
 .header .bottom-navbar .nav-link:hover{
 	color: #005192 !important;
@@ -364,7 +350,7 @@ section{
 	position: absolute;
 	left: 6px;
 	right: 6px;
-	background-color: #1D4872;
+	background-color: #00B3CD;
 	height: 100%;
 	bottom: 100%;
 	opacity: 0;
@@ -493,21 +479,6 @@ li.dropdown-item{
 ||||||||||||||||||||||\\ ABOUT CSS (START) //|||||||||||||||||||||
 ==================================================================
 ==============================================================*/
-/*.about{
-	background-image: url(../images/feature4.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-.about:before{
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(2,13,38,0.7);
-}*/
 /*====================================================================
 =====================================================================
 ||||||||||||||||||||||\\ PRODUCT CSS (START) //|||||||||||||||||||||
@@ -529,7 +500,7 @@ li.dropdown-item{
 	color:#707070;
 }
 .product_category a{
-	color:#1D4872;
+	color:#00B3CD;
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -553,46 +524,11 @@ li.dropdown-item{
 }
 .search_icon{
 	float: left;
-	background-color: #1D4872;
+	background-color: #00B3CD;
 	color: #fff;
 	/*border-radius: 0;*/
 	margin-left: -42px; 
 }
-/*.range_slider {
-  -webkit-appearance: none;
-  width: 80%;
-  height: 5px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-*/
-/*.range_slider:hover {
-  opacity: 1;
-}*/
-/*
-
-.range_slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 15px;
-  height: 15px;
-  background: #005192;
-  cursor: pointer;
-  border-radius: 50%;
-  box-shadow: 0 0 7px 5px rgba(0,81,146,0.7);
-}
-
-.range_slider::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
-  background: #005192;
-  cursor: pointer;
-  border-radius: 50%;
-  box-shadow: 0 0 7px 5px rgba(248,89,16,0.7);
-}*/
 .media-body i{
 	margin-right: 8px;
 }
@@ -607,11 +543,11 @@ li.dropdown-item{
 	border: 1px solid transparent;
 }
 .submit-btn:hover{
-	background-color: #1D4872;
+	background-color: #00B3CD;
 	color: #fff;
 }
 .info-item h6{
-	color: #1D4872;
+	color: #00B3CD;
 	margin-bottom: 5px;
 	font-size: 11px;
 	font-weight: 400;
@@ -646,7 +582,7 @@ li.dropdown-item{
 ==================================================================
 ==============================================================*/
 .footer{
-	/*background-color: #1D4872;*/
+	/*background-color: #00B3CD;*/
 }
 .footer-top:before{
 	position: absolute;
@@ -695,7 +631,7 @@ li.dropdown-item{
 	display: inline-block;
 }
 .footer-nav .nav-item .nav-link:hover{
-	color: #005192;
+	color: #00B3CD;
 }
 .footer-contact-info li{
 	padding-left: 30px;
@@ -715,7 +651,7 @@ li.dropdown-item{
 	line-height: 40px;
 	text-align: center;
 	display: inline-block;
-	background-color: #1D4872;
+	background-color: #00B3CD;
 	margin: 0 5px;
 	border-radius: 50%;
 	font-size: 16px;
@@ -738,6 +674,20 @@ li.dropdown-item{
 |||||||||||||||||||||||||||||||||||||\\ ABOUT PAGE CSS (START) //||||||||||||||||||||||||||||||||||
 ========================================================================================================
 ====================================================================================================*/
+.nav-pills .nav-link.active{
+	color: #FFF !important;
+	background-color: #00B3CD;
+}
+.nav-pills .nav-link{
+	color: #000;
+	border-radius: 0; 
+}
+.nav.flex-column.nav-pills{
+	border-right: 2px solid #00B3CD;
+}
+.tab-pane{
+	color: #666 !important;
+}
 /*====================================================================
 =====================================================================
 |||||||||||||||||||||\\ STAR  CSS (START) //||||||||||||||||||||
@@ -792,7 +742,7 @@ li.dropdown-item{
 	padding: 10px 20px;
 	display: block;
 	font-size: 18px;
-	background-color: #1D4872;
+	background-color: #00B3CD;
 }
 .certificate .accordion .card-header{
 	padding: 0;
@@ -815,7 +765,7 @@ li.dropdown-item{
 ==================================================================
 ==============================================================*/
 .whychoose {
-	background-color: #1D4872;
+	background-color: #00B3CD;
 }
 .choose-block span{
 	height: 130px;
@@ -838,7 +788,7 @@ li.dropdown-item{
 	background-color: #F2F2F5;
 }
 .type_block{
-	border: 1px solid #1D4872;
+	border: 1px solid #005192;
 	padding: 8px;
 	margin-bottom: 15px;
 	background-color: #fff;
@@ -853,32 +803,30 @@ li.dropdown-item{
 	background-color: #005192;	
 	display: block;
 	padding: 10px;
-	border: 1px solid #1D4872;
+	border: 1px solid #00B3CD;
 	margin: 5px 0;
 }
 .main_catagory{
 	padding: 10px;
 	display: block;
+	margin-left: 15px;
 }
 .product_catagory_list li{
 	margin: 10px 0;
 }
+.product_catagory{
+	margin-left: 25px;
+}
 .filter_by_block{
 	background-color: #fff;
-	border: 1px solid #1D4872;
+	border: 1px solid #005192;
 	padding: 20px;
 	margin-bottom: 15px;
 	box-shadow: 0 0 2px 0 rgba(0,0,0,.04), 0 1px 4px 0 rgba(0,0,0,.04);
 }
-.filter_main_heading h2{
-	font-size: 20px;
-	font-weight: 700;
-	color: #005192;
-	margin-bottom: 15px;
-}
 .filter_product_heading h3{
 	font-size: 16px;
-	color: #1D4872;	
+	color: #00B3CD;	
 	margin-bottom: 10px;
 }
 .check_item{
@@ -889,14 +837,6 @@ li.dropdown-item{
     height: 20px;
     border: 2px solid #C0CDD5;
     cursor: pointer;
-    -webkit-appearance: none;
-    background-color: rgba(29,72,114,0.7) ;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.check_item input:checked{
-    background-image: url(../images/checkmark.svg);
-    background-color: rgba(29,72,114,0.9) ;
 }
 .check_item label{
 	font-size: 16px;
@@ -905,13 +845,6 @@ li.dropdown-item{
 	font-weight: 400;
 	color: #005192;
 	cursor: pointer;
-}
-.show_product_head{
-	border-bottom: 1px solid #C0CDD5;
-	margin-bottom: 20px;
-}
-.show_product_head .filter_main_heading h2{
-	font-size: 40px;
 }
 .product_block{
 	background-color: #fff;
@@ -927,66 +860,13 @@ li.dropdown-item{
 	display: inline-block;
 }
 .text-primary{
-	color: #1D4872 !important;
+	color: #00B3CD !important;
 }
 .product_block p{
 	margin: 10px 0;
 	color: #686868;
 }
-/*.main_type span{
-	width: 20px;
-	height: 20px;
-	border: 1px solid #fff;
-	margin-right: 10px;
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-}
-.main_type span:before{
-	position: absolute;
-	content: "";
-	height: 1px;
-	background-color: #fff;
-	left: 5px;
-	right: 5px;
-	margin: 0 auto;
-	top: 50%;
-}
-.main_type span:after{
-	position: absolute;
-	content: "";
-	width: 1px;
-	background-color: #fff;
-	left: 0;
-	right: 0;
-	top: 5px;
-	bottom: 5px;
-	margin: 0 auto;
-	transition: all 0.5s ease 0s;
-}
-.maynesh span:after{
-	opacity: 0;
-}*/
-/*.media-body .media{
-	padding-left: 20px; 
-}*/
-/*.filter-title{
-	margin-bottom: 20px;
-}
-.filter_block_item ul li{
-	margin: 5px 0
-}
-.filter_block_item ul li input{
-	width: 15px;
-	height: 15px;
-}
-.filter_block_item ul li label{
-	font-size: 20px;
-	margin-bottom: 0;
-}
-.filter_block{
-	margin-bottom: 50px;
-}*/
+
 /*=============================================================================================================
 ===========================================================================================================
 |||||||||||||||||||||||||||||||||||||\\ CONTACT PAGE CSS (START) //||||||||||||||||||||||||||||||||||
@@ -1009,7 +889,7 @@ li.dropdown-item{
 }
 .calc .nav-pills .nav-item .nav-link{
 	color: #fff !important;
-	background-color: #1D4872;
+	background-color: #00B3CD;
 	font-size: 26px;
 	text-align: center;
 	position: relative;
@@ -1018,7 +898,7 @@ li.dropdown-item{
 	content: "";
 	position: absolute;
 	border: 40px;
-	border-top: 40px solid #1D4872;
+	border-top: 40px solid #00B3CD;
 	border-left: 40px solid transparent;
 	border-right: 40px solid transparent;
 	border-bottom: 40px solid transparent;
@@ -1242,6 +1122,9 @@ li.dropdown-item{
 	}
 	/*|||||||||||||||||||||||||  (768) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
+	.product_block{
+		padding: 15px 20px;
+	}
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
 	.map-frame{
@@ -1257,7 +1140,7 @@ li.dropdown-item{
 	}
 	.calc .nav-pills .nav-item .nav-link:before{
 		border: 30px;
-		border-top: 30px solid #1D4872;
+		border-top: 30px solid #00B3CD;
 		border-left: 30px solid transparent;
 		border-right: 30px solid transparent;
 		border-bottom: 30px solid transparent;
@@ -1310,6 +1193,11 @@ li.dropdown-item{
 	    font-size: 12px;
 	}
 	/*|||||||||||||||||||||||||  (576) HOME PAGE CSS (E)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (576) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
+	.product_block{
+		padding: 10px 0;
+	}
+	/*|||||||||||||||||||||||||  (576) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (576) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
 	.we_provide h2{
 		font-size: 26px;
@@ -1352,7 +1240,7 @@ li.dropdown-item{
 	}
 	.calc .nav-pills .nav-item .nav-link:before{
 		border: 20px;
-		border-top: 20px solid #1D4872;
+		border-top: 20px solid #00B3CD;
 		border-left: 20px solid transparent;
 		border-right: 20px solid transparent;
 		border-bottom: 20px solid transparent;
