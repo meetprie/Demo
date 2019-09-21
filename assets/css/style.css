@@ -532,6 +532,10 @@ li.dropdown-item{
 .media-body i{
 	margin-right: 8px;
 }
+.tab-content{
+	box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+	padding: 25px 19px;
+}
 /*====================================================================
 =====================================================================
 ||||||||||||||||||||||\\ CONTACT CSS (START) //|||||||||||||||||||||
@@ -674,14 +678,12 @@ li.dropdown-item{
 .nav-pills .nav-link.active{
 	color: #FFF !important;
 	background-color: var(--cyan);
-	border-color: transparent;
 }
 .nav-pills .nav-link{
 	color: #000;
 	border-radius: 0; 
 	padding: 12px 14px;
 	font-size: 16px;
-	border-bottom: 1px solid var(--blue);
 }
 .nav.flex-column.nav-pills{
 	border-right: 2px solid var(--cyan);
@@ -1126,6 +1128,20 @@ li.dropdown-item{
 	.product_block{
 		padding: 15px 20px;
 	}
+	.certificate .nav.flex-column.nav-pills{
+		flex-direction: inherit !important;
+		border: none;
+		margin-bottom: 30px;
+	}
+	.nav-pills .nav-link{
+		border-radius: 4px;
+		margin: 0 5px; 
+		background-color: var(--blue);
+		color: #fff;
+	}
+	.sec-heading h2{
+		font-size: 30px;
+	}
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
 	.map-frame{
@@ -1196,7 +1212,14 @@ li.dropdown-item{
 	/*|||||||||||||||||||||||||  (576) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (576) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
 	.product_block{
-		padding: 10px 0;
+		padding: 10px 20px;
+	}
+	.nav-pills .nav-link{
+		padding: 9px 12px;
+		font-size: 16px;
+	}
+	.tab-content{
+		padding: 15px;
 	}
 	/*|||||||||||||||||||||||||  (576) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (576) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
@@ -1207,7 +1230,7 @@ li.dropdown-item{
 		font-size: 16px;
 	}
 	.sec-heading h2{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.sec-heading p{
 		font-size: 12px;
@@ -1254,6 +1277,19 @@ li.dropdown-item{
 		padding: 7px 0;
 	}
 	/*|||||||||||||||||||||||||  (480) CALC PAGE CSS (E)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (480) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
+	.nav-pills .nav-link{
+		padding: 6px 9px;
+		font-size: 14px;
+		margin: 0 2px;
+	}
+	.provide-btn{
+		font-size: 12px;
+	}
+	.we_provide h2{
+		font-size: 20px;
+	}
+	/*|||||||||||||||||||||||||  (480) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 }
 
 @media (max-width: 340px) {
