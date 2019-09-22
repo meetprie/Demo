@@ -319,7 +319,7 @@ section{
 }
 .top-navber{
 	padding: 10px 0;
-	background: var(--cyan);
+	background: var(--blue);
 	box-shadow: 4px 11px 17px -3px rgba(255,255,255,0.6);
 }
 .inqure-form{
@@ -592,7 +592,7 @@ li.dropdown-item{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(0,81,146,0.9);
+	background-color: rgba(0,81,146,0.7);
 }
 .footer-top{
 	/*background-color: #020d26;*/
@@ -768,7 +768,7 @@ li.dropdown-item{
 ==================================================================
 ==============================================================*/
 .whychoose {
-	background-color: var(--cyan);
+	background-color: var(--blue);
 }
 .choose-block span{
 	height: 130px;
