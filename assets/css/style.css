@@ -840,6 +840,13 @@ li.dropdown-item{
     height: 20px;
     border: 2px solid #C0CDD5;
     cursor: pointer;
+    -webkit-appearance: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.check_item input:checked{
+    background-image: url(../images/checkmark.svg);
+    background-color: #7EA6DA;
 }
 .check_item label{
 	font-size: 16px;
@@ -851,9 +858,16 @@ li.dropdown-item{
 }
 .product_block{
 	background-color: #fff;
-	padding: 20px 40px;
 	margin-bottom: 20px;
 	box-shadow: 0 0 2px 0 rgba(0,0,0,.04), 0 1px 4px 0 rgba(0,0,0,.04);
+}
+.product_block a{
+	display: inline-block;
+	padding: 20PX 40PX;
+}
+.product_block_collapse{
+	display: inline-block;
+	padding: 0 20PX 20px 60px;
 }
 .product_block h3{
 	font-size: 24px;
@@ -861,6 +875,32 @@ li.dropdown-item{
 	font-weight: 700;
 	margin-bottom: 10px;
 	display: inline-block;
+}
+.product_block_collapse_tital{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.product_block_collapse a{
+	padding: 8px 30px;
+	margin-top: 20px;
+	background-color: var(--cyan);
+	color: #fff;
+	border: 1px solid transparent;
+}
+.product_block_collapse a:hover{
+	border-color: var(--cyan);
+	background-color: transparent;
+}
+.product_block_collapse_block ul li{
+	margin: 5px 0 5px 15px; 
+}
+.product_block_collapse_block ul{
+	list-style: unset;
+}
+.product_block_collapse_block{
+	margin-top: 30px;
 }
 .text-primary{
 	color: var(--cyan) !important;
@@ -1125,8 +1165,14 @@ li.dropdown-item{
 	}
 	/*|||||||||||||||||||||||||  (768) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
-	.product_block{
+	.product_block a{
 		padding: 15px 20px;
+	}
+	.product_block_collapse{
+		padding: 0 20PX 20px 30px;
+	}
+	.product_block a.btn{
+		padding: 5px 10px;
 	}
 	.certificate .nav.flex-column.nav-pills{
 		flex-direction: inherit !important;
@@ -1211,7 +1257,7 @@ li.dropdown-item{
 	}
 	/*|||||||||||||||||||||||||  (576) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (576) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
-	.product_block{
+	.product_block a{
 		padding: 10px 20px;
 	}
 	.nav-pills .nav-link{
