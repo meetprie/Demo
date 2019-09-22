@@ -914,6 +914,7 @@ li.dropdown-item{
 	font-size: 26px;
 	text-align: center;
 	position: relative;
+	padding: 9px 0;
 }
 .calc .nav-pills .nav-item .nav-link:before{
 	content: "";
@@ -1099,12 +1100,6 @@ li.dropdown-item{
 	.footer-block{
 		margin-bottom: 40px;
 	}
-	.footer-icon-row{
-		padding: 20px 0 0; 
-	}
-	.footer-icon-block{
-		margin-top: 40px;
-	}
 	.footer-top{
 		padding-top: 40px;
 	}
@@ -1115,6 +1110,9 @@ li.dropdown-item{
 	.top-navber .dropdown-menu {
 		left: -17px !important;
 	    font-size: 12px;
+	}
+	.footer .container-fluid .text{
+		padding: 0 15px;
 	}
 	/*|||||||||||||||||||||||||  (768) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
@@ -1130,13 +1128,16 @@ li.dropdown-item{
 	.certificate .nav.flex-column.nav-pills{
 		flex-direction: inherit !important;
 		border: none;
-		margin-bottom: 30px;
 	}
 	.nav-pills .nav-link{
 		border-radius: 4px;
 		margin: 0 5px; 
 		background-color: var(--blue);
 		color: #fff;
+		padding: 10px 14px;
+	}
+	.nav-pills .nav-link.active{
+		background-color: var(--cyan);
 	}
 	.sec-heading h2{
 		font-size: 30px;
