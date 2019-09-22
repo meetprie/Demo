@@ -532,7 +532,7 @@ li.dropdown-item{
 .media-body i{
 	margin-right: 8px;
 }
-.tab-content{
+.certificate .tab-content{
 	box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
 	padding: 25px 19px;
 }
@@ -677,7 +677,7 @@ li.dropdown-item{
 ====================================================================================================*/
 .nav-pills .nav-link.active{
 	color: #FFF !important;
-	background-color: var(--cyan);
+	background-color: var(--blue);
 }
 .nav-pills .nav-link{
 	color: #000;
