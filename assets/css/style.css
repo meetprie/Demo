@@ -711,28 +711,35 @@ li.dropdown-item{
 |||||||||||||||||||||\\ CERTIFICATE CSS (START) //||||||||||||||||
 ==================================================================
 ==============================================================*/
-.certificate .accordion .card-header a{
-	color: #fff;
+.descitption{
+	background-image: url(../images/standards.jpg);
+}
+.descitption .accordion{
+	margin-bottom: 30px;
+}
+.descitption .accordion .card{
+	margin: 10px 0;
+	border-radius: 0;
+}
+.descitption .accordion .card-header a{
+	color: #666;
+	font-weight: 600;
 	padding: 10px 20px;
 	display: block;
 	font-size: 18px;
-	background-color: var(--cyan);
+	background-color: #fff;
 }
-.certificate .accordion .card-header{
+.descitption .accordion .card-header{
 	padding: 0;
+	border: 1px solid #666;
+	border-radius: 0;
+	margin: 0;
 }
-.certificate .accordion .card-body .text{
-	color: #000;
+.descitption .accordion .card-body{
+	background-color: #fff;
+	border: 1px solid #666;
 }
-.certificate .card-header .active{
-	background-color: var(--blue) !important;
-	color: #fff !important;
-	padding: 20px 20px !important;
-}
-.certificate .card-body{
-	padding: 30px 20px;
-	transition: all 0.5s ease 0s;
-}
+
 /*====================================================================
 =====================================================================
 |||||||||||||||||||||\\ WHY CHOOSE US CSS (START) //||||||||||||||||
@@ -964,6 +971,29 @@ li.dropdown-item{
 }
 .totle-count-number{
 	font-size: 24px;
+}
+/*=============================================================================================================
+===========================================================================================================
+|||||||||||||||||||||||||||||||||||||\\ Career Page CSS (START) //||||||||||||||||||||||||||||||||||
+========================================================================================================
+====================================================================================================*/
+.openings_table{
+	background-color: #F8F9FA;
+}
+.openings_table .table th{
+	font-size: 30px;
+	width: 50%;
+	border-color: var(--blue);
+}
+.openings_table .table td{
+	font-size: 20px;
+	font-weight: 600;
+	border-color: var(--blue);
+}
+.inquiry_for_job form .form-group label{
+	font-size: 20px;
+	margin-left: 7px;
+	font-weight: 600;
 }
 /*=============================================================================================================
 ===========================================================================================================
