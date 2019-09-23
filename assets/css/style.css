@@ -1300,10 +1300,11 @@ li.dropdown-item{
 	}
 	.openings_table .table td{
 		font-size: 14px;
-		padding: 0px;
+		padding: 10px;
+		vertical-align: middle;
 	}
 	.openings_table .table .submit-btn{
-		padding: 0;
+		padding: 5px;
 		border-radius: 0;
 		font-size: 10px;
 	}
