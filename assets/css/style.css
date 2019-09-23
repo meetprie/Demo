@@ -982,14 +982,18 @@ li.dropdown-item{
 }
 .openings_table .table th{
 	font-size: 30px;
-	width: 50%;
-	border-color: var(--blue);
+	border-color: var(--cyan);
+	vertical-align: middle;
+}
+.openings_table .table .apply_heading{
+	font-size: 17px;			 
 }
 .openings_table .table td{
 	font-size: 20px;
 	font-weight: 600;
-	border-color: var(--blue);
+	border-color: var(--cyan);
 }
+.apply_now_form form .form-group label,
 .inquiry_for_job form .form-group label{
 	font-size: 20px;
 	margin-left: 7px;
@@ -1204,6 +1208,8 @@ li.dropdown-item{
 		top: 34px;
 	}
 	/*|||||||||||||||||||||||||  (786) CALC PAGE CSS (E)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (786) CAREER PAGE CSS (S)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (786) CAREER PAGE CSS (S)||||||||||||||||||||||||*/
 
 }
 
@@ -1284,6 +1290,24 @@ li.dropdown-item{
 	}
 
 	/*|||||||||||||||||||||||||  (576) CALC PAGE CSS (E)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (576) CAREER PAGE CSS (S)||||||||||||||||||||||||*/
+	.openings_table .table th{
+		font-size: 18px;
+		padding: 0;
+	}
+	.openings_table .table .apply_heading{
+		font-size: 10px;
+	}
+	.openings_table .table td{
+		font-size: 14px;
+		padding: 0px;
+	}
+	.openings_table .table .submit-btn{
+		padding: 0;
+		border-radius: 0;
+		font-size: 10px;
+	}
+	/*|||||||||||||||||||||||||  (576) CAREER PAGE CSS (S)||||||||||||||||||||||||*/
 }
 @media (max-width: 480px){
 	.top-navber .dropdown-menu {
