@@ -1092,7 +1092,14 @@ li.dropdown-item{
 	    font-size: 12px;
 	}
 	.bottom-navbar .dropdown-menu {
-		display: none !important;
+		width: 700px;
+		left: -400px;
+	}
+	.bottom-navbar .dropdown_menu_title{
+		font-size: 17px;
+	}
+	.bottom-navbar .dropdown-menu li ul li a{
+		font-size: 12px;
 	}
 	/*|||||||||||||||||||||||||  (992) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (992) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
@@ -1173,6 +1180,9 @@ li.dropdown-item{
 	}
 	.footer .container-fluid .text{
 		padding: 0 15px;
+	}
+	.bottom-navbar .dropdown-menu {
+		display: none !important;
 	}
 	/*|||||||||||||||||||||||||  (768) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
