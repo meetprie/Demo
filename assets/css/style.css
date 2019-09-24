@@ -1141,6 +1141,7 @@ li.dropdown-item{
 		order: -1;
 		position: relative;
 		left: -27%;
+		/*width: 40%;*/
 	}
 	.header_search_group{
 		order: -1;
@@ -1276,6 +1277,7 @@ li.dropdown-item{
 	/*|||||||||||||||||||||||||  (576) HOME PAGE CSS (S)||||||||||||||||||||||||*/
 	.logo{
 		left: auto;
+		width: 40%;
 	}
 	.carousel-control-prev, .carousel-control-next{
 		width: 35px;
