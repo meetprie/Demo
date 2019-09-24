@@ -264,7 +264,7 @@ section{
 	opacity: 0;
 	transition: all 0.5s ease 0s;
 	width: auto;
-	left: -700px;
+	left: -600px;
 	right: 0;
 	width: 1140px;
 	top: 66px;
@@ -570,6 +570,9 @@ li.dropdown-item{
 	padding-top: 30px;
 	border-top: 1px solid var(--blue);
 }
+.contact_person_info ul li p{
+	font-weight: 600;
+}
 .contact_person_info ul li{
 	font-size: 25px;
 	line-height: 24px;
@@ -720,6 +723,9 @@ li.dropdown-item{
 |||||||||||||||||||||\\ CERTIFICATE CSS (START) //||||||||||||||||
 ==================================================================
 ==============================================================*/
+.certificate{
+	padding: 100px 0 130px;
+}
 .descitption{
 	background-image: url(../images/standards.jpg);
 }
@@ -820,9 +826,11 @@ li.dropdown-item{
 	box-shadow: 0 0 2px 0 rgba(0,0,0,.04), 0 1px 4px 0 rgba(0,0,0,.04);
 }
 .filter_product_heading h3{
-	font-size: 16px;
-	color: var(--cyan);	
-	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--blue);	
+	margin: 0px 0 25px;
+	display: inline-block;
 }
 .check_item{
 	margin-bottom: 10px;
@@ -1033,10 +1041,21 @@ li.dropdown-item{
 
 	/*|||||||||||||||||||||||||  (1200) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
 	.bottom-navbar .dropdown-menu {
-		width: 900px;
-		left: -500px;	
+		width: 800px;
+		left: -400px;	
 		top: 56px;
 		display: flex !important;
+	}
+	.header .bottom-navbar .nav-link{
+		margin: 0 2px;
+		padding: 0 6px;
+		font-size: 15px;
+	}
+	.bottom-navbar .dropdown_menu_title{
+		font-size: 16px;
+	}
+	.bottom-navbar .dropdown-menu li ul li a{
+		font-size: 12px;
 	}
 	.top-navber .dropdown-menu {
 		left: 150px !important;
@@ -1060,6 +1079,9 @@ li.dropdown-item{
 	}
 	.carousel-caption{
 		top: 50%;
+	}
+	.filter_product_heading h3{
+		margin: 0 0 15px;
 	}
 	.product .product_category:nth-child(odd) .col-lg-4{
 		padding-left: 15px;
@@ -1100,7 +1122,7 @@ li.dropdown-item{
 	}
 	.bottom-navbar .dropdown-menu {
 		width: 700px;
-		left: -400px;
+		left: -350px;
 	}
 	.bottom-navbar .dropdown_menu_title{
 		font-size: 17px;
@@ -1275,8 +1297,7 @@ li.dropdown-item{
 		font-size: 30px;	
 	}
 	.filter_product_heading h3{
-		font-size: 12px;
-		margin-top: 10px;
+		font-size: 14px;
 	}
 	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 
