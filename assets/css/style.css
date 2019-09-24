@@ -1271,6 +1271,13 @@ li.dropdown-item{
 	.product_block button{
 		padding: 5px 10px;
 	}
+	.filter_main_heading h2{
+		font-size: 30px;	
+	}
+	.filter_product_heading h3{
+		font-size: 12px;
+		margin-top: 10px;
+	}
 	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 
 }
