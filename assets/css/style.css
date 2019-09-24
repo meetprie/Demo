@@ -1095,6 +1095,11 @@ li.dropdown-item{
 	/*|||||||||||||||||||||||||  (992) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (992) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (992) CONTACT PAGE CSS (E)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (992) PRODUCT PAGE CSS (S)||||||||||||||||||||||||*/
+		.product_block a{
+		padding: 10px 15px;
+	}
+	/*|||||||||||||||||||||||||  (992) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 
 
 }
@@ -1150,9 +1155,6 @@ li.dropdown-item{
 	}
 	/*|||||||||||||||||||||||||  (768) HOME PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) ABOUT PAGE CSS (S)||||||||||||||||||||||||*/
-	.product_block a{
-		padding: 15px 20px;
-	}
 	.product_block_collapse{
 		padding: 0 20PX 20px 30px;
 	}
@@ -1209,7 +1211,22 @@ li.dropdown-item{
 	}
 	/*|||||||||||||||||||||||||  (786) CALC PAGE CSS (E)||||||||||||||||||||||||*/
 	/*|||||||||||||||||||||||||  (786) CAREER PAGE CSS (S)||||||||||||||||||||||||*/
-	/*|||||||||||||||||||||||||  (786) CAREER PAGE CSS (S)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (786) CAREER PAGE CSS (E)||||||||||||||||||||||||*/
+	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (S)||||||||||||||||||||||||*/
+	.product_block .text{
+		font-size: 12px;
+	}
+	.product_block p{
+		font-size: 13px;
+	}
+	.product_block h3{
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	.product_block a{
+		padding: 10px 12px;
+	}
+	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 
 }
 
