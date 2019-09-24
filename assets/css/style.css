@@ -37,6 +37,12 @@ input:focus{
 	--cyan: #00B3CD;
 	--blue: #005192;
 }
+i{
+	transition: all 0.5s ease 0s;
+}
+.updwon{
+	transform: rotate(180deg);
+}
 /*
 color: #00B3CD   rgba(0,179,205,0.8);
 */
@@ -776,7 +782,6 @@ li.dropdown-item{
 	background-color: #F2F2F5;
 }
 .type_block{
-	border: 1px solid var(--blue);
 	padding: 8px;
 	margin-bottom: 15px;
 	background-color: #fff;
@@ -807,7 +812,6 @@ li.dropdown-item{
 }
 .filter_by_block{
 	background-color: #fff;
-	border: 1px solid var(--blue);
 	padding: 20px;
 	margin-bottom: 15px;
 	box-shadow: 0 0 2px 0 rgba(0,0,0,.04), 0 1px 4px 0 rgba(0,0,0,.04);
@@ -894,7 +898,19 @@ li.dropdown-item{
 	margin: 10px 0;
 	color: #686868;
 }
-
+.ok button i{
+	transform: rotate(180deg);
+}
+.product_block .collapsed button i{
+	transform: rotateX(180deg);
+}
+.product_block button{
+	float: right;
+	border-radius: 0;
+}
+.product_block button i{
+	transition: all 0.5s ease 0s;
+}
 /*=============================================================================================================
 ===========================================================================================================
 |||||||||||||||||||||||||||||||||||||\\ CONTACT PAGE CSS (START) //||||||||||||||||||||||||||||||||||
@@ -982,7 +998,7 @@ li.dropdown-item{
 }
 .openings_table .table th{
 	font-size: 30px;
-	border-color: var(--cyan);
+	border-color: var(--blue);
 	vertical-align: middle;
 }
 .openings_table .table .apply_heading{
@@ -991,7 +1007,7 @@ li.dropdown-item{
 .openings_table .table td{
 	font-size: 20px;
 	font-weight: 600;
-	border-color: var(--cyan);
+	border-color: var(--blue);
 }
 .apply_now_form form .form-group label,
 .inquiry_for_job form .form-group label{
@@ -1225,6 +1241,9 @@ li.dropdown-item{
 	}
 	.product_block a{
 		padding: 10px 12px;
+	}
+	.product_block button{
+		padding: 5px 10px;
 	}
 	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 
