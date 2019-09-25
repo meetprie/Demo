@@ -1175,6 +1175,9 @@ li.dropdown-item{
 		.product_block a{
 		padding: 10px 15px;
 	}
+	.totel-count-block{
+		margin-top: 20px;
+	}
 	/*|||||||||||||||||||||||||  (992) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 
 
@@ -1279,6 +1282,7 @@ li.dropdown-item{
 	.map-frame{
 		height: 300px;
 	}
+
 	input[type="file"]{
 		width: 100% !important;
 	}
@@ -1307,27 +1311,32 @@ li.dropdown-item{
 	.product_block .text{
 		font-size: 12px;
 	}
+
 	.product_block p{
 		font-size: 13px;
 	}
+
 	.product_block h3{
 		font-size: 20px;
 		margin-bottom: 5px;
 	}
+
 	.product_block a{
 		padding: 10px 12px;
 	}
+
 	.product_block button{
 		padding: 5px 10px;
 	}
+
 	.filter_main_heading h2{
 		font-size: 30px;	
 	}
+
 	.filter_product_heading h3{
 		font-size: 14px;
 	}
 	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
-
 }
 
 
