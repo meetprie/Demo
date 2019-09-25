@@ -1046,7 +1046,7 @@ li.dropdown-item{
 	.bottom-navbar .dropdown-menu {
 		width: 800px !important;
 		left: -400px;	
-		top: 63px;
+		top: 55px;
 		display: flex !important;
 	}
 	.bottom-navbar.fixed .dropdown-menu{
@@ -1139,7 +1139,7 @@ li.dropdown-item{
 	.bottom-navbar .dropdown-menu {
 		width: 750px !important;
 		left: -375px;
-		top: 74px;
+		top: 55px;
 	}
 	.bottom-navbar.fixed .dropdown-menu{
 		top: 52px;
