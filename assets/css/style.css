@@ -264,7 +264,7 @@ section{
 	opacity: 0;
 	transition: all 0.5s ease 0s;
 	width: auto;
-	left: -600px;
+	left: -640px;
 	right: 0;
 	width: 1140px;
 	top: 66px;
@@ -309,6 +309,9 @@ section{
 	position: absolute;
 	width: 100%;
 	z-index: 999;
+}
+.mega_menu_block{
+	margin: 0 30px
 }
 .fixed{
 	position: fixed;
@@ -1041,10 +1044,22 @@ li.dropdown-item{
 
 	/*|||||||||||||||||||||||||  (1200) CONTACT PAGE CSS (S)||||||||||||||||||||||||*/
 	.bottom-navbar .dropdown-menu {
-		width: 800px;
+		width: 800px !important;
 		left: -400px;	
-		top: 56px;
+		top: 63px;
 		display: flex !important;
+	}
+	.bottom-navbar.fixed .dropdown-menu{
+		top: 46px;
+	}
+	.mega_menu_block{
+		margin: 0 8px;
+	}
+	.bottom-navbar .dropdown:hover .dropdown-menu{
+		height: 220px;
+	}
+	li.dropdown-item{
+		padding: 2px 1.5rem;
 	}
 	.header .bottom-navbar .nav-link{
 		margin: 0 2px;
@@ -1053,6 +1068,7 @@ li.dropdown-item{
 	}
 	.bottom-navbar .dropdown_menu_title{
 		font-size: 16px;
+		margin-bottom: 10px;
 	}
 	.bottom-navbar .dropdown-menu li ul li a{
 		font-size: 12px;
@@ -1121,11 +1137,22 @@ li.dropdown-item{
 	    font-size: 12px;
 	}
 	.bottom-navbar .dropdown-menu {
-		width: 700px;
-		left: -350px;
+		width: 750px !important;
+		left: -375px;
+		top: 74px;
+	}
+	.bottom-navbar.fixed .dropdown-menu{
+		top: 52px;
+	}
+	.mega_menu_block{
+		margin: 0 10px;
+	}
+	li.dropdown-item{
+		padding: 2px 4px;
 	}
 	.bottom-navbar .dropdown_menu_title{
 		font-size: 17px;
+		padding: 0 4px;
 	}
 	.bottom-navbar .dropdown-menu li ul li a{
 		font-size: 12px;
