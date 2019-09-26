@@ -1488,12 +1488,15 @@ li.dropdown-item{
 
 @media (max-width: 340px) {
 	.logo {
-		width: 200px;
+		width: 198px;
 		margin: 0;
 	}
 	.top-navber .dropdown-menu {
 		left: -65% !important;
 	    font-size: 12px;
+	}
+	.navbar-toggler{
+		padding: 5px 4px;
 	}
 }
 
