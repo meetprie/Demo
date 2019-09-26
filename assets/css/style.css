@@ -1195,7 +1195,7 @@ li.dropdown-item{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	/*|||||||||||||||||||||||||  (768) HOME PAGE CSS (S)||||||||||||||||||||||||*/
 	section{
 		padding: 40px 0;
@@ -1358,6 +1358,7 @@ li.dropdown-item{
 	/*|||||||||||||||||||||||||  (576) HOME PAGE CSS (S)||||||||||||||||||||||||*/
 	.logo{
 		width: 250px;
+		margin: 0;
 	}
 	.carousel-control-prev, .carousel-control-next{
 		width: 35px;
@@ -1486,10 +1487,9 @@ li.dropdown-item{
 	/*|||||||||||||||||||||||||  (480) ABOUT PAGE CSS (E)||||||||||||||||||||||||*/
 }
 
-@media (max-width: 340px) {
+@media (max-width: 360px) {
 	.logo {
-		width: 192px;
-		margin: 0;
+		width: 240px;
 	}
 	.top-navber .dropdown-menu {
 		left: -65% !important;
@@ -1501,7 +1501,11 @@ li.dropdown-item{
 }
 @media (max-width: 320px){
 	.logo{
-		width: 170px;
+		width: 200px;
 	}
 }
-
+@media (max-width: 300px){
+	.logo{
+		width: 190px;
+	}
+}
