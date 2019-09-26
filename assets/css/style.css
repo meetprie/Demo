@@ -1488,7 +1488,7 @@ li.dropdown-item{
 
 @media (max-width: 340px) {
 	.logo {
-		width: 180px;
+		width: 192px;
 		margin: 0;
 	}
 	.top-navber .dropdown-menu {
@@ -1499,5 +1499,9 @@ li.dropdown-item{
 		padding: 5px 4px;
 	}
 }
-
+@media (max-width: 320px){
+	.logo{
+		width: 170px;
+	}
+}
 
