@@ -1351,6 +1351,12 @@ li.dropdown-item{
 	.filter_product_heading h3{
 		font-size: 14px;
 	}
+	.certificate{
+		padding: 60px 0;
+	}
+	.certificate .tab-content{
+		padding: 30px 0;
+	}
 	/*|||||||||||||||||||||||||  (786) PRODUCT PAGE CSS (E)||||||||||||||||||||||||*/
 }
 
